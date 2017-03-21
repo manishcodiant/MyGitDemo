@@ -12,6 +12,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.e("Demo","This is my git Demo!!!");
-        Log.w("kdsjfkjdsfdshf0","fhdsjfdsjfh");
     }
 }

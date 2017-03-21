@@ -14,8 +14,5 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e("Demo", "This is my git Demo!!!");
 
-        Log.w("Demo", "This is my dgknd glkdhjdfkjh dfjhl Demo!!!");
-        Log.e("Demo","This is my git Demo!!!");
-        Log.e("Demo","Direct Committed By Manish !!!!!");
     }
 }

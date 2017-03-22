@@ -1,10 +1,15 @@
 package gs.com.mygitdemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private Button moveToFirst;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +24,17 @@ public class MainActivity extends AppCompatActivity {
         Log.e("Demo", "This is change by yogesh 22-03-2017 !!!");
         Log.e("Demo", "This is change by yogesh 22-03-2017-11.56pm !!!");
 
+        moveToFirst = (Button) findViewById(R.id.moveToFirst);
 
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.moveToFirst:
+                Intent intent = new Intent(MainActivity.this,FirstActivity.class);
+                startActivity(intent);
+        }
     }
 }

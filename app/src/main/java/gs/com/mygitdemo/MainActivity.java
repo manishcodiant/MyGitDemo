@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.e("Demo", "This is made by manish !!!");
         Log.e("Demo", "This is change by yogesh !!!");
         Log.e("Demo", "This is change by yogesh 22-03-2017 !!!");
-
         Log.e("Demo", "Added BY Manish 22 MAR 17 !!!");
-
         moveToFirst = (Button) findViewById(R.id.moveToFirst);
         moveToFirst.setOnClickListener(this);
 
